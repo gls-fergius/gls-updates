@@ -23,6 +23,10 @@
     {
       "version": "1.2.0",
       "changelog": "Fixed сrash when closing PIE (Play In Editor) or using hot reload/recompilation."
+    },
+    {
+      "version": "1.2.7",
+      "changelog": "Fixed сrash when closing PIE (Play In Editor) or using hot reload/recompilation."
     }
   ]
 }
