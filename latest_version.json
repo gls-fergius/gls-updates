@@ -1,0 +1,12 @@
+{
+  "versions": [
+    {
+      "version": "0.7",
+      "changelog": "Fixed an issue that caused the packaged version of the game to freeze when closed."
+    },
+    {
+      "version": "0.8",
+      "changelog": "Fixed сrash when closing PIE (Play In Editor) or using hot reload/recompilation."
+    }
+  ]
+}
