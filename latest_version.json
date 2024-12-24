@@ -13,7 +13,7 @@
       "changelog": "Fixed сrash when closing PIE (Play In Editor) or using hot reload/recompilation. Fixed сrash when closing PIE (Play In Editor) or using hot reload/recompilation. Fixed сrash when closing PIE (Play In Editor) or using hot reload/recompilation. Fixed сrash when closing PIE (Play In Editor) or using hot reload/recompilation."
     },
     {
-      "version": "0.9",
+      "version": "0.10",
       "changelog": "Fixed сrash when closing PIE (Play In Editor) or using hot reload/recompilation."
     }
   ]
