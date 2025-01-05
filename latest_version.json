@@ -7,6 +7,10 @@
     {
       "version": "0.8",
       "changelog": "Fixed сrash when closing PIE (Play In Editor) or using hot reload/recompilation."
+    },
+    {
+      "version": "0.9",
+      "changelog": "Added a user notification system to inform about new updates. Resolved an issue where identical UE_LOG entries were displayed multiple times in the overlay panel. Fixed a crash when using the GLS_LOG_STRING macro. Addressed slow log creation when opening the overlay panel. The GLS overlay now appears instantly when pressing the ALT + SHIFT + G shortcut. Holding the keys for one second is no longer required. This behavior can be customized in the settings. Added sorting for categories in reverse alphabetical order (Z-A)."
     }
   ]
 }
