@@ -17,6 +17,11 @@
       "version": "0.10",
       "date": "01.12.2025",
       "changelog": "The plugin is no longer considered an experimental version but remains in beta. Added the ability to save logs directly from the game build to a file (currently supported only on Windows). Settings now apply immediately upon changing any variable—no need to press Set As Default anymore. Introduced a breaking change for older versions: the GLS_LOG macro no longer requires the context parameter as its first argument. Updated the plugin documentation with detailed information and new sections."
+    },
+    {
+      "version": "0.11",
+      "date": "01.19.2025",
+      "changelog": "Fixed an issue with automatic context capture when using the GLS_LOG macro. Added the ability to open the GLS overlay even when UI Only mode is enabled. Updated the technical solution for input handling, allowing the GLS overlay to be opened from anywhere in the game. Fixed a crash when reading editor save data between sessions. Added settings variables to control the hotkey hold duration required to open the GLS overlay on different device types."
     }
   ]
 }
