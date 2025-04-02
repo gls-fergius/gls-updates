@@ -22,6 +22,11 @@
       "version": "0.11",
       "date": "01.19.2025",
       "changelog": "Fixed an issue with automatic context capture when using the GLS_LOG macro. Added the ability to open the GLS overlay even when UI Only mode is enabled. Updated the technical solution for input handling, allowing the GLS overlay to be opened from anywhere in the game. Fixed a crash when reading editor save data between sessions. Added settings variables to control the hotkey hold duration required to open the GLS overlay on different device types."
+    },
+    {
+      "version": "0.12",
+      "date": "01.04.2025",
+      "changelog": "Fixed the issue of duplicate log entries when using the PrintStringToGLS function and other minor bugs."
     }
   ]
 }
