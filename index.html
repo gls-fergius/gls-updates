@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GLS Plugin Changelog</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f3f4f6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1f2937, #374151);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      font-size: 2em;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      padding: 20px 30px;
+      margin-bottom: 20px;
+      transition: 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.01);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .version {
+      font-size: 1.3em;
+      font-weight: bold;
+    }
+
+    .date {
+      font-size: 0.9em;
+      color: #6b7280;
+      margin-bottom: 10px;
+    }
+
+    .changelog {
+      white-space: pre-wrap;
+      font-size: 1em;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <header>GLS Plugin Changelog</header>
+  <div class="container" id="changelog-container">
+    <!-- Versions will be injected here -->
+  </div>
+
+  <script>
+    fetch("https://gls-fergius.github.io/gls-updates/latest_version.json")
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById("changelog-container");
+        [...data.versions].reverse().forEach(v => {
+          const div = document.createElement("div");
+          div.className = "card";
+          div.innerHTML = `
+            <div class="version">Version ${v.version}</div>
+            <div class="date">${v.date || 'Unknown date'}</div>
+            <div class="changelog">${v.changelog}</div>
+          `;
+          container.appendChild(div);
+        });
+      })
+      .catch(err => {
+        console.error("Failed to load changelog:", err);
+        document.getElementById("changelog-container").innerText = "Could not load changelog.";
+      });
+  </script>
+</body>
+</html>
