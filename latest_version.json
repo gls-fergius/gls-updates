@@ -25,8 +25,13 @@
     },
     {
       "version": "0.12",
-      "date": "01.04.2025",
+      "date": "04.01.2025",
       "changelog": "Fixed the issue of duplicate log entries when using the PrintStringToGLS function and other minor bugs."
+    },
+    {
+      "version": "0.13",
+      "date": "04.06.2025",
+      "changelog": "Added the ability to use GLS_LOGFMT. GLS_LOGFMT is a macro similar to UE_LOGFMT that allows you to format log messages using fmt::format syntax within the GLS logging system."
     }
   ]
 }
