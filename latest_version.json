@@ -37,6 +37,11 @@
       "version": "0.14",
       "date": "04.21.2025",
       "changelog": "Tabs can now have custom user-defined names. Filter panels are now resizable via mouse drag. Filter categories now stay visible after clearing logs, with dimmed appearance if no logs are available. Filter categories appear fully opaque if there are logs to display, and semi-transparent if no logs are available. You can now hide logs by category using the eye icon, removing them from the main list. Added bStrictFilterMode setting to switch between OR (default) and AND logic for category filtering."
+    },
+    {
+      "version": "0.14.1",
+      "date": "04.21.2025",
+      "changelog": "Fixed a bug with hiding logs for hidden categories when opening the overlay."
     }
   ]
 }
