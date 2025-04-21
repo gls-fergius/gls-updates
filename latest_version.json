@@ -32,6 +32,11 @@
       "version": "0.13",
       "date": "04.06.2025",
       "changelog": "Added the ability to use GLS_LOGFMT. GLS_LOGFMT is a macro similar to UE_LOGFMT that allows you to format log messages using fmt::format syntax within the GLS logging system."
+    },
+    {
+      "version": "0.14",
+      "date": "04.21.2025",
+      "changelog": "Tabs can now have custom user-defined names. Filter panels are now resizable via mouse drag. Filter categories now stay visible after clearing logs, with dimmed appearance if no logs are available. Categories show a white dot when new logs appear and an orange dot when logs disappear. You can now hide logs by category using the eye icon, removing them from the main list. Added bStrictFilterMode setting to switch between OR (default) and AND logic for category filtering."
     }
   ]
 }
