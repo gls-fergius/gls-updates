@@ -42,6 +42,11 @@
       "version": "0.14.1",
       "date": "04.21.2025",
       "changelog": "Fixed a bug with hiding logs for hidden categories when opening the overlay."
+    },
+    {
+      "version": "0.14.2",
+      "date": "04.22.2025",
+      "changelog": "Fixed bugs related to creating and deleting tabs."
     }
   ]
 }
