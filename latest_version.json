@@ -47,6 +47,11 @@
       "version": "0.14.2",
       "date": "04.22.2025",
       "changelog": "Fixed bugs related to creating and deleting tabs."
+    },
+    {
+      "version": "0.14.3",
+      "date": "04.23.2025",
+      "changelog": "Fixed critical bugs related to performance and creating/deleting tabs."
     }
   ]
 }
