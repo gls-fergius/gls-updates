@@ -59,6 +59,11 @@
       "version": "0.14.4",
       "date": "04.26.2025",
       "changelog": "Fixed an issue with adding filter categories to favorites and searching within filter categories."
+    },
+    {
+      "version": "0.14.5",
+      "date": "06.17.2025",
+      "changelog": "Added support for UE 5.6. BP function PrintStringToGLS now accepts a context object for advanced filtering."
     }
   ]
 }
