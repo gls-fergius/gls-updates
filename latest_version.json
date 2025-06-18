@@ -64,6 +64,11 @@
       "version": "0.14.5",
       "date": "06.17.2025",
       "changelog": "Added support for UE 5.6. BP function PrintStringToGLS now accepts a context object for advanced filtering."
+    },
+    {
+      "version": "0.14.6",
+      "date": "06.18.2025",
+      "changelog": "Fixed dedicated server compilation errors."
     }
   ]
 }
