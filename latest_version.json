@@ -69,6 +69,11 @@
       "version": "0.14.6",
       "date": "06.18.2025",
       "changelog": "Fixed dedicated server compilation errors."
+    },
+    {
+      "version": "0.15.0",
+      "date": "11.10.2025",
+      "changelog": "Fixed the functionality of the 'Copy Visible Logs' and 'Copy All Logs' buttons to correctly copy logs to the clipboard."
     }
   ]
 }
