@@ -74,6 +74,11 @@
       "version": "0.15.0",
       "date": "11.10.2025",
       "changelog": "Fixed the functionality of the 'Copy Visible Logs' and 'Copy All Logs' buttons to correctly copy logs to the clipboard."
+    },
+    {
+      "version": "0.15.1",
+      "date": "11.11.2025",
+      "changelog": "New settings: “Respect UI Format” for Copy and Save. Now you can decide — copy/save logs exactly as shown in the UI, or always include full technical details."
     }
   ]
 }
