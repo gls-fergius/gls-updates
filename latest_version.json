@@ -89,6 +89,11 @@
       "version": "0.15.3",
       "date": "11.16.2025",
       "changelog": "Fixed a bug with color highlighting depending on the verbosity level."
+    },
+    {
+      "version": "0.15.4",
+      "date": "02.26.2026",
+      "changelog": "Improved GLS_LOGFMT handling: it is now safe to pass both strings and TCHAR values."
     } 
   ]
 }
