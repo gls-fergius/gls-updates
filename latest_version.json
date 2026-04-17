@@ -94,6 +94,11 @@
       "version": "0.15.4",
       "date": "02.26.2026",
       "changelog": "Improved GLS_LOGFMT handling: it is now safe to pass both strings and TCHAR values."
+    },
+    {
+      "version": "0.15.5",
+      "date": "04.14.2026",
+      "changelog": "Added the ability to filter logs by regex."
     } 
   ]
 }
