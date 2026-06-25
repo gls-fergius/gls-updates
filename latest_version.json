@@ -99,6 +99,11 @@
       "version": "0.15.5",
       "date": "04.14.2026",
       "changelog": "Added the ability to filter logs by regex."
-    } 
+    },
+    {
+      "version": "1.0.0",
+      "date": "06.24.2026",
+      "changelog": "Added UE 5.8 support"
+    }
   ]
 }
