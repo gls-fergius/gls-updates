@@ -104,6 +104,11 @@
       "version": "1.0.0",
       "date": "06.24.2026",
       "changelog": "Added UE 5.8 support"
+    },
+    {
+      "version": "1.0.1",
+      "date": "07.06.2026",
+      "changelog": "Added Blueprint Nodes settings to set default pin values (Category, Verbosity, Print to Screen/Log, Duration) for newly placed Print String to GLS nodes."
     }
   ]
 }
